@@ -29,7 +29,7 @@ docker run --rm -p 8501:8501 -v ${PWD}:/app audiosummary:latest streamlit run tr
 ```
 Se `${PWD}` não funcionar, use o caminho completo:
 ```powershell
-docker run --rm -p 8501:8501 -v C:\Users\ISAACSANTOS\audiosummary:/app audiosummary:latest streamlit run transcription.py
+docker run --rm -p 8501:8501 -v \audiosummary:/app audiosummary:latest streamlit run transcription.py
 ```
 
 ### 4. Rodar localmente (sem Docker)
