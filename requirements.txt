@@ -1,0 +1,13 @@
+# Troque 'openai-whisper' por 'git+https://github.com/openai/whisper.git' para garantir a instalação correta do pacote whisper
+streamlit
+# openai-whisper  # Removido, pois o nome correto do pacote é 'whisper' e deve ser instalado via git
+# Adicione a linha abaixo para instalar o whisper corretamente
+# Veja: https://github.com/openai/whisper#installation
+git+https://github.com/openai/whisper.git
+torch==2.2.2
+transformers
+numpy==1.26.4
+nltk
+openai
+sentencepiece
+symspellpy
